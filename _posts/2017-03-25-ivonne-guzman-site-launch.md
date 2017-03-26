@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "Ivonne Guzman-Lemuz, personal site attempt launch"
+title: "Ivonne Guzman-Lemuz, personal site attempt launch"
 date: 2017-03-25
 ---
 
