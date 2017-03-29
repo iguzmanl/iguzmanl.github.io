@@ -29,8 +29,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #FFFFFF;
-    <!-- #d5d5d5 --> 
+    border-top: 1px solid #FFFFFF; 
     font-size: .8em;
 }
 
