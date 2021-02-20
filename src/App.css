@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'CircularStdBold';
+  src: local('CircularStd'), url(./fonts/CircularStd-Bold.otf) format('OpenType');
+}
+@font-face {
+  font-family: 'CircularStdBook';
+  src: local('CircularStd'), url(./fonts/CircularStd-Book.otf) format('OpenType');
+}
+
+
+.App {
+  text-align: center;
+  color: white;
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+}
+
+.landing {
+  text-align: center;
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  color: white;
+  font-weight: Bold;
+  min-height: 100vh;
+}
+
+.jobOpportunities {
+  background-color: #FFFFFF;
+  box-shadow: 7px 0px 30px 0 rgba(0, 0, 0, 0.16);
+  min-height: 100vh;
+
+}
+
+.organizations {
+  background-color: #E6E6E6;
+  box-shadow: 7px 0px 30px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+.community {
+  background-color: #E6E6E6;
+  box-shadow: 7px 0px 30px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+.aboutUs {
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  box-shadow: 10px 0px 20px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+.group-1 {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 15vh;
+  font-family: CircularStdBold;
+
+}
+
+.landinglogo {
+  padding-top: 70px;
+  height: 71px;
+  width: 371px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#page-smallHeading {
+  height: 30px;
+  color: #1D00B5;
+  font-size: 24px;
+  /* font-weight: 700; */
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  text-align: left;
+  font-family: CircularStdBold;
+
+}
+
+#page-largeheading {
+  height: 52.81px;
+  color: #1D00B5;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0.86px;
+  line-height: 61px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: CircularStdBold;
+
+}
+
+
+#page-button  {
+  height: 80px;
+  border-radius: 10px;
+  background-color: #1D00B5;
+  box-shadow: 2px 2px 4px 0 rgba(66,66,66,0.5);
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  text-align: center;
+  font-family: CircularStdBold;
+
+}
+
+
+#titleWithLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+}
+
+#explore-jobs {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: CircularStdBold;
+  letter-spacing: 0.67px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 250px;
+  padding-bottom: 10px;
+  height: 5vh;
+}
+
+#aboutUs-heading {
+  height: 30px;
+  color: #FFF;
+  font-size: 24px;
+  font-family: CircularStdBold;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  text-align: left;
+}
+
+#aboutUs-team {
+  opacity: 0.9;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+ text-align: center;
+ margin-bottom: 0px;
+ font-family: CircularStdBook;
+}
+
+.circular--landscape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: 200px;
+  height: 200px;
+}
+
+.circular--portrait {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #1D00B5 !important;
+    border-color:  #1D00B5 !important;
+}
